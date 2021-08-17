@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "category_s",
+  "info": {
+    "name": "category "
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "products": {
+      "collection": "products",
+      "via": "categories",
+      "dominant": true
+    },
+    "phone": {
+      "type": "string"
+    },
+    "tablet": {
+      "type": "string"
+    },
+    "computer": {
+      "type": "string"
+    }
+  }
+}

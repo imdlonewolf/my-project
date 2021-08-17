@@ -1,0 +1,8 @@
+{
+    "provider":"cloudinary",
+    "providerOptions":{
+        "cloud_name":"dhhguicty",
+        "api_key":"843481337381595",
+        "api_secret":"CLOUDINARY_URL=cloudinary://843481337381595:Oi2gAzKmIFUOoAmboUi2c-NfD04@dhhguicty"
+    }
+}
